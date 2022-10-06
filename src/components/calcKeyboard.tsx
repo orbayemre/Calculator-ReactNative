@@ -83,7 +83,7 @@ export default function CalcKeyboard(){
         <View style={styles.calcKeyboard}>
             <ButtonComp value={"C"} onPress={()=>clear()}/>
             <ButtonComp value={"∧"}  onPress={()=> handleOperationPress("^")} isOperation/>
-            <ButtonComp value={"x"} onPress={()=> handlePercentPress()} isOperation/>
+            <ButtonComp value={"%"} onPress={()=> handlePercentPress()} isOperation/>
             <ButtonComp value={"÷"} onPress={()=> handleOperationPress("÷")} isOperation/>
             <ButtonComp value={"9"} onPress={()=> handleNumberPress("9")} isNumber/>
             <ButtonComp value={"8"} onPress={()=> handleNumberPress("8")} isNumber/>
